@@ -9,3 +9,104 @@
 body {
     font-family: 'Open Sans';
 }
+
+.v-middle {
+    vertical-align: middle;
+}
+
+/* GENERICS FLEX */
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* POSITION */
+
+.p-fixed {
+    position: fixed;
+}
+
+/* MARGIN */
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+/* PADDING */
+.p-10 {
+    padding: 10px;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+/* LAYOUT */
+
+.full-container {
+    width: 100%;
+}
+
+.left-col {
+    width: 50%;
+}
+
+.right-col {
+    width: 50%;
+}
+
+/* TXT PROPERTIES */
+
+.txt-right {
+    text-align: right;
+}
+
+/* BTN */
+
+.btn-style {
+    padding: 5px 15px;
+}
+
+.btn-blue {
+    background-color: #0061fe;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.btn-blue:hover {
+    background-color: #0042ac;
+}
+
+/* HEADER */
+
+header {
+    background-color: #ffffff;
+    right: 0;
+    left: 0;
+}
+
+header a:not(.btn-style) {
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+header a:not(.btn-style):hover {
+    color: black;
+    text-decoration: underline;
+}
+
+header span, header img {
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+/* MAIN */
+
+main {
+    background-color: #b4d0e6;
+}
