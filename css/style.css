@@ -18,6 +18,10 @@ body {
     font-weight: bold;
 }
 
+.img-fluid {
+    width: 100%;
+}
+
 /* BORDERS */
 
 .border-t-1black {
@@ -196,6 +200,14 @@ header.right-col {
     width: 30%;
 }
 
+.col-40 {
+    width: 40%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
 .col-70 {
     width: 70%;
 }
@@ -229,6 +241,18 @@ header.right-col {
 
 .btn-blue:hover {
     background-color: #0042ac;
+}
+
+.btn-white {
+    background-color: white;
+    color: #333;
+    border: 1px solid #333;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.btn-white:hover {
+    background-color: #777777;
 }
 
 /* INPUT */
