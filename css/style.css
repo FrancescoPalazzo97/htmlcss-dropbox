@@ -19,8 +19,32 @@ body {
     display: flex;
 }
 
+.direction-column {
+    flex-direction: column;
+}
+
+.grow-0 {
+    flex-grow: 0;
+}
+
+.align-items-fstart {
+    align-items: flex-start;
+}
+
+.rowgap-30 {
+    row-gap: 30px;
+}
+
 .align-items-center {
     align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.j-center {
+    justify-content: center;
 }
 
 /* POSITION */
@@ -29,10 +53,18 @@ body {
     position: fixed;
 }
 
+.p-relative {
+    position: relative;
+}
+
 /* MARGIN */
 
 .mx-auto {
     margin: 0 auto;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
 }
 
 /* PADDING */
@@ -44,21 +76,40 @@ body {
     padding-top: 70px;
 }
 
+.pr-80 {
+    padding-right: 80px;
+}
+
 /* LAYOUT */
 
 .full-container {
     width: 100%;
 }
 
-.left-col {
+.big-container {
+    max-width: 70%;
+}
+
+header.left-col {
     width: 50%;
 }
 
-.right-col {
+header.right-col {
     width: 50%;
+}
+
+.left-col {
+    width: 40%;
+}
+.right-col {
+    width: 60%;
 }
 
 /* TXT PROPERTIES */
+
+.txt-center {
+    text-align: center;
+}
 
 .txt-right {
     text-align: right;
@@ -107,6 +158,26 @@ header span, header img {
 
 /* MAIN */
 
-main {
+/* jumbotron */
+
+.jumbo {
     background-color: #b4d0e6;
+}
+
+.jumbo>.big-container {
+    top: 70px;
+}
+
+.jumbo h1 {
+    font-size: 91px;
+    margin: 10px 0 30px;
+}
+
+.jumbo img {
+    width: 100%;
+}
+
+.left-col i {
+    font-size: 70px;
+    margin-top: 45px;
 }
