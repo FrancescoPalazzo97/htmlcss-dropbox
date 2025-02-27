@@ -74,7 +74,7 @@ body {
     flex-wrap: wrap;
 }
 
-.norap {
+.nowrap {
     flex-wrap: nowrap;
 }
 
@@ -355,22 +355,23 @@ header h5 {
 
 header ul {
     list-style-type: none;
-    margin: 10px 20px 0 0;
+    margin: 0 20px 0 0;
 }
 
 /* MENU */
 
-#nav ul li {
+/* #nav ul li {
     position: relative;
-}
+} */
 
 #nav ul .menu {
     display: none;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 0;
     right: 0;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 0 20px 160px;
 }
 
 #nav ul .menu li {
@@ -378,20 +379,12 @@ header ul {
 }
 
 #nav ul li:hover > .menu {
-    display: block;
+    display: flex;
 }
 
 .menu:hover {
     display: block;
 }
-
-/* .menu {
-    display: none;
-}
-
-#why-dropbox:hover .menu {
-    display: block;
-} */
 
 /* MAIN */
 
