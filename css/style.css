@@ -367,8 +367,10 @@ header ul {
 #nav ul .menu {
     display: none;
     position: absolute;
-    top: 100%;
+    top: 50%;
     left: 0;
+    right: 0;
+    background-color: white;
 }
 
 #nav ul .menu li {
@@ -376,6 +378,10 @@ header ul {
 }
 
 #nav ul li:hover > .menu {
+    display: block;
+}
+
+.menu:hover {
     display: block;
 }
 
