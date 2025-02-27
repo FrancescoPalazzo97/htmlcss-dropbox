@@ -163,6 +163,10 @@ body {
     padding-top: 70px;
 }
 
+.pl-150 {
+    padding-left: 157px;
+}
+
 .pr-80 {
     padding-right: 80px;
 }
@@ -222,6 +226,10 @@ header.right-col {
 
 .col-40 {
     width: 40%;
+}
+
+.col-50 {
+    width: 50%;
 }
 
 .col-60 {
@@ -336,10 +344,48 @@ header a:not(.btn-style):hover {
     text-decoration: underline;
 }
 
-header span, header img {
+header span, header img, header a {
     vertical-align: middle;
     margin-right: 15px;
 }
+
+header h5 {
+    margin-top: 20px;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 10px 20px 0 0;
+}
+
+/* MENU */
+
+#nav ul li {
+    position: relative;
+}
+
+#nav ul .menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+#nav ul .menu li {
+    display: block;
+}
+
+#nav ul li:hover > .menu {
+    display: block;
+}
+
+/* .menu {
+    display: none;
+}
+
+#why-dropbox:hover .menu {
+    display: block;
+} */
 
 /* MAIN */
 
