@@ -44,10 +44,24 @@ a:not(.buy-now>a) {
     margin-left: 50px;
 }
 
-.mt-2
-
 .mt-30 {
     margin-top: 30px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-150 {
+    margin-top: 150px;
+}
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.my-30 {
+    margin: 30px 0;
 }
 
 /* PADDING */
@@ -190,6 +204,19 @@ a:not(.buy-now>a) {
     background-color: #0044b1;
 }
 
+.btn.btn-gray {
+    color: black;
+    border: 1px solid gray;
+    transition: 0.5s;
+}
+
+.btn.btn-gray:hover {
+    background-color: #f0f0f080;
+    color: black;    
+    border: 1px solid black;
+
+}
+
 /* HEADER */
 
 nav {
@@ -258,16 +285,12 @@ main>hr {
 
 /* MAIN CONTENT */
 
-#main-content {
-    margin-top: 100px;
-}
-
 /* SECTION 1 */
 
 /* Input radio section */
 
 .radio input {
-    background-color: #f1f1f1;
+    background-color: white;
     appearance: none;
     border: 2px solid #ccc;
     border-radius: 50%;
@@ -331,4 +354,10 @@ main>hr {
 .card-box ul li>hr {
     width: 100px;
     color: #ccc;
+}
+
+/* SECTION 2 */
+
+#main-content section .col-full .col-40 {
+    margin-left: 30px;
 }
