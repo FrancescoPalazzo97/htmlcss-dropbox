@@ -13,7 +13,7 @@
 <body>
     <!-- HEADER -->
     <header class="p-relative">
-        <nav class="d-flex p-absolute">
+        <nav class="d-flex p-fixed">
             <div class="col-50">
                 <ul class="d-flex align-items-center">
                     <li>
@@ -45,7 +45,7 @@
                         <a href="#">Accedi</a>
                     </li>
                     <li>
-                        <a href="#" class="btn-style btn-blue">Inizia</a>
+                        <a href="#" class="btn btn-style btn-blue">Inizia</a>
                     </li>
                 </ul>
             </div>
@@ -93,12 +93,274 @@
                         <label for="option2">Fatturazione annuale</label>
                     </div>
                 </div>
-                <div class="card-box d-flex j-between">
-                    <div class="col-30"></div>
-                    <div class="col-30"></div>
-                    <div class="col-30"></div>
+                <!-- CARD BOX -->
+                <div class="card-box d-flex j-between wrap rowgap-50">
+                    <!-- CARD 1 -->
+                    <div class="col-30">
+                        <h4 class="txt-center">
+                            <i class="fa-solid fa-user"></i>
+                            Singolo
+                        </h4>
+                        <ul>
+                            <li class="p-25">
+                                <ul>
+                                    <li><h3>Professional</h3></li>
+                                    <li>&euro; 12.00</li>
+                                    <li class="txt-gray">/mese</li>
+                                </ul>
+                            </li>
+                            <li class="p-25 d-flex wrap rowgap-20">
+                                <div class="col-10">
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <div class="col-90">
+                                    1 utente
+                                </div>
+                                <div class="col-10">
+                                    <i class="fa-solid fa-folder"></i>
+                                </div>
+                                <div class="col-90">
+                                    5 TB di spazio di archiviazione sicuro
+                                </div>
+                                <div class="col-10">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </div>
+                                <div class="col-90">
+                                    Funzioni di produttività premium e condivisione file semplice e sicura
+                                </div>
+                            </li>
+                            <li class="p-25">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="btn btn-style btn-blue">Prova gratis per 30 giorni</a>
+                                    </li>
+                                    <li class="buy-now">
+                                        Oppure <a href="#">Acquista ora</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="p-25">
+                                <hr>
+                            </li>
+                            <li class="p-25">
+                                Punti salienti del piano
+                                <ul>
+                                    <li class="d-flex">
+                                        <div class="col-10">
+                                            <i class="fa-solid fa-check" style="color: #74C0FC;"></i>
+                                        </div>
+                                        <div class="col-90">
+                                            Invia file fino a 100 GB con Dropbox Transfert
+                                        </div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <div class="col-10">
+                                            <i class="fa-solid fa-check" style="color: #74C0FC;"></i>
+                                        </div>
+                                        <div class="col-90">
+                                            Cartelle offline su dispositivi mobili
+                                        </div> 
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- CARD 2 -->
+                    <div class="col-30">
+                        <h4 class="txt-center">
+                            <i class="fa-solid fa-users"></i>
+                            Team
+                        </h4>
+                        <ul>
+                            <li class="p-25">
+                                <ul>
+                                    <li><h3>Advanced</h3></li>
+                                    <li>&euro; 18.00</li>
+                                    <li class="txt-gray">/utente/mese</li>
+                                </ul>
+                            </li>
+                            <li class="p-25 d-flex wrap rowgap-20">
+                                <div class="col-10">
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <div class="col-90">
+                                    3 o pi&ugrave; utenti
+                                </div>
+                                <div class="col-10">
+                                    <i class="fa-solid fa-folder"></i>
+                                </div>
+                                <div class="col-90">
+                                    Tutto lo spazio di cui ha bisogno il tuo team
+                                </div>
+                                <div class="col-10">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </div>
+                                <div class="col-90">
+                                    Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
+                                </div>
+                            </li>
+                            <li class="p-25">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="btn btn-style btn-blue">Prova gratis per 30 giorni</a>
+                                    </li>
+                                    <li class="buy-now">
+                                        Oppure <a href="#">Acquista ora</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="p-25">
+                                <hr>
+                            </li>
+                            <li class="p-25">
+                                Punti salienti del piano
+                                <ul>
+                                    <li class="d-flex">
+                                        <div class="col-10">
+                                            <i class="fa-solid fa-check" style="color: #74C0FC;"></i>
+                                        </div>
+                                        <div class="col-90">
+                                            Nessun limite di spazio per i file
+                                        </div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <div class="col-10">
+                                            <i class="fa-solid fa-check" style="color: #74C0FC;"></i>
+                                        </div>
+                                        <div class="col-90">
+                                            Cartelle offline su dispositivi mobili
+                                        </div> 
+                                    </li>
+                                    <li class="d-flex">
+                                        <div class="col-10">
+                                            <i class="fa-solid fa-check" style="color: #74C0FC;"></i>
+                                        </div>
+                                        <div class="col-90">
+                                            Risparmio del 50% rispetto alle iscrizioni singole                                        
+                                        </div> 
+                                    </li>
+                                    <li class="d-flex">
+                                        <div class="col-10">
+                                            <i class="fa-solid fa-check" style="color: #74C0FC;"></i>
+                                        </div>
+                                        <div class="col-90">
+                                            Possibilità di inserire nuovi membri del team                                        
+                                        </div> 
+                                    </li>
+                                    <li class="d-flex">
+                                        <div class="col-10">
+                                            <i class="fa-solid fa-check" style="color: #74C0FC;"></i>
+                                        </div>
+                                        <div class="col-90">
+                                            Gestione dei permessi in base ai ruoli                                       
+                                        </div> 
+                                    </li>
+                                </ul>
+                            </li>
+                    </div>
+                    <!-- CARD 3 -->
+                    <div class="col-30">
+                        <h4 class="txt-center">
+                            <i class="fa-solid fa-building"></i>
+                            Azienda
+                        </h4>
+                        <ul>
+                            <li class="p-25">
+                                <ul>
+                                    <li><h3>Enterprise</h3></li>
+                                    <li>Contattaci</li>
+                                    <li class="txt-gray">-</li>
+                                </ul>
+                            </li>
+                            <li class="p-25 d-flex wrap rowgap-20">
+                                <div class="col-10">
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <div class="col-90">
+                                    10 o più utenti
+                                </div>
+                                <div class="col-10">
+                                    <i class="fa-solid fa-folder"></i>
+                                </div>
+                                <div class="col-90">
+                                    Soluzioni personalizzabili per la tua azienda
+                                </div>
+                                <div class="col-10">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </div>
+                                <div class="col-90">
+                                    Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala
+                                </div>
+                            </li>
+                            <li class="p-25">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="btn btn-style btn-blue">Contattaci</a>
+                                    </li>
+                                    <li class="buy-now">
+                                        Oppure <a href="#">Acquista ora</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="p-25">
+                                <hr>
+                            </li>
+                            <li class="p-25">
+                                Punti salienti del piano
+                                <ul>
+                                    <li class="d-flex">
+                                        <div class="col-10">
+                                            <i class="fa-solid fa-check" style="color: #74C0FC;"></i>
+                                        </div>
+                                        <div class="col-90">
+                                            Cartelle offline su dispositivi mobili
+                                        </div> 
+                                    </li>
+                                    <li class="d-flex">
+                                        <div class="col-10">
+                                            <i class="fa-solid fa-check" style="color: #74C0FC;"></i>
+                                        </div>
+                                        <div class="col-90">
+                                            Servizio assistenza 24/h
+                                        </div> 
+                                    </li>
+                                    <li class="d-flex">
+                                        <div class="col-10">
+                                            <i class="fa-solid fa-check" style="color: #74C0FC;"></i>
+                                        </div>
+                                        <div class="col-90">
+                                            Possibilità di personalizzazione totale
+                                        </div> 
+                                    </li>
+                                </ul>
+                            </li>
+                    </div>
+                    <!-- CARD 4 -->
+                    <div class="col-full">
+                        <h4 class="txt-center">
+                            <i class="fa-solid fa-building"></i>
+                            Team
+                        </h4>
+                        <div class="d-flex">
+                            <div class="col-70">
+                                <ul class="p-25">
+                                    <li><h3>Enterprise</h3></li>
+                                    <li>Contatta l'ufficio vendite per i prezzi</li>
+                                    <li class="mt-30">
+                                        Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.
+                                    </li>
+                                </ul>  
+                            </div>
+                            <div class="col-30 mt-30">
+                                <div>
+                                    <a href="#" class="btn btn-style btn-blue">Contatta l'ufficio vendite</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
+            <section></section>
         </div>
     </main>
     <footer></footer>
